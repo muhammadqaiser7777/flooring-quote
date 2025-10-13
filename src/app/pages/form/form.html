@@ -4,22 +4,26 @@
   <div class="roof-form" [ngClass]="'step-' + currentStep">
     <div class="header">
       <img src="assets/images/form-logo.webp" alt="Form Logo" class="form-logo">
-      <h1>Get your Gutters remodeling quote</h1>
+      <h1>Get your Flooring quote</h1>
     </div>
     <div class="questions" *ngIf="currentStep === 1">
       <div class="question">
-        <label for="Guttertype">What Gutters service do you need?</label>
-        <select id="Guttertype" [(ngModel)]="Guttertype" name="Guttertype" required>
+        <label for="Floortype">What Flooring service do you need?</label>
+        <select id="Floortype" [(ngModel)]="Floortype" name="Floortype" required>
           <option value="">Select an option</option>
-          <option value="1">Galvanized</option>
-          <option value="2">Seamless Metal</option>
-          <option value="3">PVC</option>
-          <option value="4">Wood</option>
-          <option value="5">Gutter Cleaning</option>
-          <option value="6">Gutter Protection</option>
-          <option value="7">Other</option>
+          <option value="1">Carpet - install</option>
+          <option value="2">Carpet- Repair or Refasten</option>
+          <option value="3">Epoxy Flooring</option>
+          <option value="4">Hardwood Floor- Install</option>
+          <option value="5">Laminate Floor- Install</option>
+          <option value="6">Laminate Floor- Repair</option>
+          <option value="7">Tile Floor- Install/Repair</option>
+          <option value="8">Vinyl Or Linoleum Floor-Install</option>
+          <option value="9">Vinyl Or Linoleum Floor - Repair</option>
+          <option value="10">Wood Floor - Refinishing</option>
+          <option value="11">Wood Floor - Repair or Partially Replace</option>
         </select>
-        <div class="error" *ngIf="errors['Guttertype']">{{ errors['Guttertype'] }}</div>
+        <div class="error" *ngIf="errors['Floortype']">{{ errors['Floortype'] }}</div>
       </div>
       <div class="question">
         <label for="ProjectNature">What is the nature of your project?</label>
@@ -193,7 +197,7 @@
       </div>
       <div class="question">
         <label for="BriefRequirement">Brief Description</label>
-        <textarea id="BriefRequirement" [(ngModel)]="BriefRequirement" name="BriefRequirement" rows="4" placeholder="Please provide a brief description of your Guttering needs..."></textarea>
+        <textarea id="BriefRequirement" [(ngModel)]="BriefRequirement" name="BriefRequirement" rows="4" placeholder="Please provide a brief description of your Flooring needs..."></textarea>
         <div class="error" *ngIf="errors['BriefRequirement']">{{ errors['BriefRequirement'] }}</div>
       </div>
     </div>

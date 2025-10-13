@@ -4,9 +4,9 @@
   top: 0;
   z-index: 100;
   width: 100%;
-  background: #2E7D32;
+  background: #8B4513;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  border-bottom: 2px solid #4CAF50;
+  border-bottom: 2px solid #D2691E;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -83,7 +83,7 @@
 
 /* ---------- GET QUOTE BUTTON ---------- */
 .quote-btn {
-  background: #4CAF50;
+  background: #D2691E;
   color: #ffffff;
   padding: 0.5rem 1.2rem;
   border-radius: 8px;
@@ -161,7 +161,7 @@
 }
 
 .mobile-dropdown a:hover {
-  color: #2E7D32;
+  color: #8B4513;
 }
 
 /* ---------- RESPONSIVE ---------- */

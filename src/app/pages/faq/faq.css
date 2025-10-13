@@ -12,10 +12,10 @@
   text-align: center;
   margin-bottom: 3rem;
   padding: 3rem 2rem;
-  background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 50%, #81C784 100%);
+  background: linear-gradient(135deg, #8B4513 0%, #D2691E 50%, #DEB887 100%);
   color: white;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(46, 125, 50, 0.3);
+  box-shadow: 0 10px 30px rgba(139, 69, 19, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -75,12 +75,12 @@
 .faq-item:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  border-color: rgba(76, 175, 80, 0.3);
+  border-color: rgba(210, 105, 30, 0.3);
 }
 
 .faq-item.active {
-  border-color: #4CAF50;
-  box-shadow: 0 8px 30px rgba(76, 175, 80, 0.2);
+  border-color: #D2691E;
+  box-shadow: 0 8px 30px rgba(210, 105, 30, 0.2);
 }
 
 /* Question Button */
@@ -108,7 +108,7 @@
   top: 0;
   height: 100%;
   width: 4px;
-  background: linear-gradient(180deg, #4CAF50 0%, #81C784 100%);
+  background: linear-gradient(180deg, #D2691E 0%, #DEB887 100%);
   transform: scaleY(0);
   transition: transform 0.3s ease;
 }
@@ -123,7 +123,7 @@
 }
 
 .faq-question:focus {
-  outline: 3px solid rgba(76, 175, 80, 0.5);
+  outline: 3px solid rgba(210, 105, 30, 0.5);
   outline-offset: -3px;
 }
 
@@ -135,7 +135,7 @@
 /* Toggle Icon */
 .toggle-icon {
   transition: transform 0.3s ease;
-  color: #4CAF50;
+  color: #D2691E;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,7 +151,7 @@
   overflow: hidden;
   transition: all 0.4s ease;
   background: linear-gradient(145deg, #f8f9fa 0%, #ffffff 100%);
-  border-top: 1px solid rgba(76, 175, 80, 0.2);
+  border-top: 1px solid rgba(210, 105, 30, 0.2);
 }
 
 .faq-answer.expanded {
@@ -173,7 +173,7 @@
   left: 1rem;
   top: 1rem;
   font-size: 3rem;
-  color: rgba(76, 175, 80, 0.2);
+  color: rgba(210, 105, 30, 0.2);
   line-height: 1;
 }
 
@@ -195,21 +195,21 @@
 }
 
 .faq-footer a {
-  color: #4CAF50;
+  color: #D2691E;
   text-decoration: none;
   font-weight: 700;
   font-size: 1.1rem;
   padding: 0.8rem 1.5rem;
-  background: linear-gradient(135deg, #4CAF50 0%, #81C784 100%);
+  background: linear-gradient(135deg, #D2691E 0%, #DEB887 100%);
   color: white;
   border-radius: 25px;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+  box-shadow: 0 4px 15px rgba(210, 105, 30, 0.3);
 }
 
 .faq-footer a:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+  box-shadow: 0 6px 20px rgba(210, 105, 30, 0.4);
   text-decoration: none;
 }
 

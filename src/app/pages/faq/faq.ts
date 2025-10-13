@@ -16,8 +16,8 @@ interface FaqItem {
 export class Faq {
   faqs: FaqItem[] = [
     {
-      question: 'How does the Gutters quote process work?',
-      answer: 'Fill out our detailed form with your Gutters project information. We securely process your data and connect you with trusted contractors in your area who will provide personalized quotes.',
+      question: 'How does the Flooring quote process work?',
+      answer: 'Fill out our detailed form with your Flooring project information. We securely process your data and connect you with trusted contractors in your area who will provide personalized quotes.',
       isOpen: false
     },
     {
@@ -27,7 +27,7 @@ export class Faq {
     },
     {
       question: 'How do you select contractors?',
-      answer: 'We partner only with experienced, trusted Guttering professionals who have proven track records, positive customer reviews, and meet our quality standards. All contractors undergo background checks.',
+      answer: 'We partner only with experienced, trusted Flooring professionals who have proven track records, positive customer reviews, and meet our quality standards. All contractors undergo background checks.',
       isOpen: false
     },
     {
@@ -36,8 +36,8 @@ export class Faq {
       isOpen: false
     },
     {
-      question: 'What types of Guttering services do you cover?',
-      answer: 'We cover all major Guttering services including installation, repair, replacement, maintenance, and emergency repairs for various Guttering fixtures like gutters, downspouts, and drainage systems.',
+      question: 'What types of Flooring services do you cover?',
+      answer: 'We cover all major Flooring services including installation, repair, replacement, maintenance, and emergency repairs for various Flooring fixtures like floors, carpets, and tiles.',
       isOpen: false
     },
 
@@ -53,7 +53,7 @@ export class Faq {
     },
     {
       question: 'What information do I need to provide?',
-      answer: 'Basic project details including gutters type, property type, project nature (install/repair/replace), timeline, and contact information. More details help contractors provide accurate quotes.',
+      answer: 'Basic project details including flooring type, property type, project nature (install/repair/replace), timeline, and contact information. More details help contractors provide accurate quotes.',
       isOpen: false
     }
   ];
