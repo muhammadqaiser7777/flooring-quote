@@ -289,14 +289,11 @@ export class Form implements OnInit {
       this.isValidatingIP = true;
       this.http.get(`https://ipapi.co/${this.ipaddress}/json/`).subscribe({
         next: (data: any) => {
-          this.isUSCitizen = data.country === "US";
+          this.isUSCitizen = true;
           this.isValidatingIP = false;
           // Data captured logged
           if (this.currentStep < this.totalSteps) {
             this.currentStep++;
-          }
-          if (!this.isUSCitizen) {
-            this.errors['general'] = 'This service is only for US citizens.';
           }
         },
         error: () => {
